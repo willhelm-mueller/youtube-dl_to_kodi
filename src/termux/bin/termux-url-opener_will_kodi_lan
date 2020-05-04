@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash	
+/data/data/com.termux/files/home/python/youtube-dl_to_kodi.py -p 4000 -u $1 -i 192.168.178.29
+
+
+
+#/data/data/com.termux/files/home/python/youtube-dl_to_kodi.py -u $1 -i 192.168.2.201

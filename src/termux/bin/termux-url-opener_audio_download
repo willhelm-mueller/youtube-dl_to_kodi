@@ -1,0 +1,7 @@
+cd ~/storage/external-1/
+youtube-dl -f 251 $1	
+
+#/data/data/com.termux/files/home/python/submit_to_kodi_2.py -p 4000 -u $1
+
+
+#/data/data/com.termux/files/home/python/submit_to_kodi_2.py -u $1 -i 192.168.2.201

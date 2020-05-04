@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/gtts-cli --output out.mp3 --lang de $1	

@@ -1,0 +1,17 @@
+#!/data/data/com.termux/files/usr/bin/bash
+#this script switches on termux url catcher
+echo "1=downlod 2=will_kodi 3=mapa_kodi 4=will_kodi_lan"
+
+read choice
+
+cd /data/data/com.termux/files/home/bin
+if [ "$choice" == 1 ]; then
+  cp termux-url-opener_audio_download termux-url-opener
+elif [ "$choice" == 2 ]; then
+   cp termux-url-opener_will_kodi termux-url-opener
+elif [ "$choice" == 3 ]; then
+  cp termux-url-opener_mapa_kodi termux-url-opener
+elif [ "$choice" == 4 ]; then
+  cp termux-url-opener_will_kodi_lan termux-url-opener
+fi
+
